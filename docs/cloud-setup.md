@@ -1,6 +1,10 @@
 # Codex cloud setup
 
-Repository contents are ready for remote setup. An environment must still be created and published in your ChatGPT account before remote execution is enabled.
+The `waiver-warrior` environment was published on October 24, 2026, with access limited to its owner. Swift 6.3.1 was installed and signature-verified; the shared core build and CLI execution passed, including repeat setup. Fresh-task restoration has not yet been tested.
+
+To start work, choose **Work in > Cloud > Select environment > waiver-warrior** and send your coding task. The saved Start skill configures the Swift toolchain and writable caches under `/workspace`.
+
+## Recreating the environment
 
 1. In ChatGPT/Codex, choose **Work in > Cloud > Select environment > Create environment**.
 2. Select `cvillanueva10/waiver-warrior`. If it is missing, review the connected GitHub app's repository access.
